@@ -1,0 +1,33 @@
+html {
+    font-size: 15px;
+}
+* {
+    margin: 0;
+    border: 0;
+}
+
+.mainContainer {
+    width: 100%;
+    background-color: bisque;
+}
+.secondContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContainer .secondContainer div ul {
+    list-style: none;
+    display: flex;
+    margin-right: 2rm;
+    cursor: pointer;
+}
+
+.mainContainer .secondContainer div ul li {
+    padding-right: 1.5rem 
+}
+
+.mainContainer .secondContainer img {
+    width: 10%;
+    height: 10%;
+}
